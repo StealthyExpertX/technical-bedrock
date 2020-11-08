@@ -11,6 +11,9 @@ Here is the complete list of Bedrock particles. For some inexplicable reason, Be
 And for some other inexplicable reason, it doesn't have autocomplete for these.
 
 ### Working particles
+
+The following particles can be spawned using the command syntax shown here, `/particle <prefix:name> <x> <y> <z>`:
+
 | minecraft:basic_flame_particle              |
 | minecraft:basic_portal_particle             |
 | minecraft:basic_smoke_particle              |
@@ -134,6 +137,7 @@ The following particles are permanent and will not be removed once spawned until
 | minecraft:stunned_emitter             |
 
 ## Broken particles
+
 The following particles exist in-game but cannot be spawned because they require context that cannot be provided by `/particle` or are simply bugged:
 
 | minecraft:block_destruct         |
